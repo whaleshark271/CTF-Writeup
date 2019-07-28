@@ -1,0 +1,8 @@
+# Paper Bin
+**40 points**
+## Description
+> defund accidentally deleted all of his math papers! Help recover them from his computer's raw data.
+## Hint
+> File carving
+---
+## Writeup
