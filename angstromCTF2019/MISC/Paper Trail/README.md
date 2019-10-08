@@ -6,7 +6,7 @@
 ## Writeup
 Use Wireshark to open `paper_trail.pcapng`.
 
-Under protocal IRC request/response are some information. I went through all of them and put the flag back together.
+Under protocal IRC 85 request or 144 response are some information (at trailer). I went through all of them and put the flag back together.
 
 ![Image of IRC data](image0.PNG)
 
