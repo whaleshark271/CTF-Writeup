@@ -5,11 +5,11 @@
 > Submit your answer in our competition's flag format. For example, if you answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
 ---
 ## Writeup
-The abandoned factory is the game of picoctf. You will need to find glpyhs in every door(category).
+The abandoned factory is the game of picoctf. You will need to find glyphs in every door(category).
 
 First you need to solve the 2 warm up challenges of General Skills to proceed to the doors.
 
-**General Skills** : The glpyh is right in front of you when you enter.
+**General Skills** : The glyph is right in front of you when you enter.
 
 ![glyph1](glyph1.jpg)
 
@@ -17,7 +17,7 @@ First you need to solve the 2 warm up challenges of General Skills to proceed to
 
 ![glyph2](glyph2.jpg)
 
-**Cryptography** : I went through the tombs one by one and found the glpyh at the right side 6th row counting from bottom and the 5th one counting from left to right.
+**Cryptography** : I went through the tombs one by one and found the glyph at the right side 6th row counting from bottom and the 5th one counting from left to right.
 
 ![glyph3](glyph3.jpg)
 
@@ -25,7 +25,7 @@ First you need to solve the 2 warm up challenges of General Skills to proceed to
 
 ![glyph4](glyph4.jpg)
 
-**Forensics** : The plyph is at the pond where the propagation wave is.
+**Forensics** : The glyph is at the pond where the propagation wave is.
 
 ![glyph5](glyph5.jpg)
 
