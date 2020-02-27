@@ -8,7 +8,7 @@
 For this problem, we need to inject shellcode to buffer, then use bufferoverflow to alter return address back to buffer to execute shellcode. (The problem provides the buffer address)
 
 Below is the shellcode to gain /bin/sh
-```asssembly
+```assembly
 push rax # for alignment (not sure why)
 xor rdx, rdx # use xor to prevent null byte
 xor rsi, rsi
