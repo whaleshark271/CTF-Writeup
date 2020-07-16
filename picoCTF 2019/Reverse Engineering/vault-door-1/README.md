@@ -1,9 +1,9 @@
-# vault-door-training
+# vault-door-1
 **100 points**
 ## Description
 > This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: [VaultDoor1.java](VaultDoor1.java).
 ## Hints
-> Look up the charAt() method online..
+> Look up the charAt() method online.
 ---
 ## Writeup
 `charAt()` will get the character from the specified index.
