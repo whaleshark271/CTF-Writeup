@@ -1,10 +1,11 @@
 # CTF-Writeup
 A collection of all the CTFs and problems I've solved.
 ## Solved
-- **78** writeups
+- **82** writeups
 ## Year
 ### 2020
 - [balqs_CTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/balqs_CTF)
+- [SpookyCTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/SpookyCTF)
 - [WHCSC x NTIHS CTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/WHCSC%20x%20NTIHS%20CTF%202020)
 - [Tetris CTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/Tetris%20CTF%202020)
 ### 2019
