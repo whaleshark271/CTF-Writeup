@@ -3,6 +3,8 @@ A collection of all the CTFs and problems I've solved.
 ## Solved
 - **82** writeups
 ## Year
+### Wargames
+- [begin.re](https://github.com/whaleshark271/CTF-Writeup/tree/master/Wargames/begin.re)
 ### 2020
 - [balqs_CTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/balqs_CTF)
 - [SpookyCTF](https://github.com/whaleshark271/CTF-Writeup/tree/master/2020/SpookyCTF)
