@@ -1,15 +1,3 @@
-# asm4
-**400 points**
-## Description
-> What will asm4("picoCTF_d7243") return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. [Source](test.S) located in the directory at /problems/asm4_1_20b49d5dfd7aa7eceb32a78d2468fea1.
-## Hints
-> Treat the Array argument as a pointer
----
-## Writeup
-After trying it with pen and paper I decided to just compile it. With the help from [Jason Turley's writeup](https://jasonturley.xyz/picoctf-asm4-writeup/) I finally managed to compiled it in kali linux.
-
-First, modify the format in the assembly file. Add `.intel_syntax noprefix` since we're not adding prefix `%` and add jumping labels.
-```asm
 .intel_syntax noprefix
 .global asm4
 	
@@ -75,30 +63,3 @@ asm4_138:
 	pop    ebx
 	pop    ebp
 	ret
-```
-
-Then write a `run.c` to run the file.
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-int asm4(char *);
-
-int main(void)
-{
-	printf("picoCTF{0x%x}\n", asm4("picoCTF_d7243"));
-	return 0;
-}
-```
-
-Before compiling, remember to get 32-bit libraries or else the c file can't be compiled in 32-bit.
-* `sudo apt-get update`
-* `sudo apt-get install gcc-multilib`
-
-Then do the following steps to get the flag.
-* `gcc -masm=intel -m32 -c asm4.S -o asm4.o`
-* `gcc -m32 -c run.c -o run.o`
-* `gcc -m32 asm4.o run.o -o main`
-* `./main`
-
-flag: picoCTF{0x1d2}
